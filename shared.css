@@ -22,7 +22,7 @@ main {
   align-items: center;
   background: #2ddf5c;
   position: fixed;
-  top:0;
+  top: 0;
   height: 2rem;
   width: 100%;
   padding: 0.5rem 0;
@@ -31,7 +31,7 @@ main {
 
 .main-div {
   width: 30%;
-  display:flex;
+  display: flex;
   padding-left: 8px;
   align-items: center;
 }
@@ -52,13 +52,11 @@ main {
   padding-right: 5px;
 }
 
-@media (max-width:40rem){
+@media (max-width: 40rem) {
   .main-nav {
     display: none;
   }
 }
-
-
 
 .main-nav__items {
   display: flex;
@@ -210,7 +208,7 @@ main {
   margin: 0.6rem 0;
 }
 
-@media (min-width:40rem) {
+@media (min-width: 40rem) {
   .toggle-button {
     display: none;
   }

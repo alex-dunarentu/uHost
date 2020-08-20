@@ -18,8 +18,6 @@
   vertical-align: top;
 }
 
-
-
 .testimonial__info {
   text-align: right;
   display: inline-block;
@@ -56,7 +54,7 @@
 .testimonial__text {
   margin: 0.2rem;
 }
-@media (max-width:505px){
+@media (max-width: 505px) {
   .testimonial__image-container {
     width: 100%;
   }
@@ -72,7 +70,7 @@
     text-align: center;
   }
   #customer-2 .testimonial__image-container {
-    margin-top:30px;
+    margin-top: 30px;
   }
 }
 .clearfix {

@@ -1,5 +1,5 @@
 #product-overview {
-  background: url("images/freedom.jpg") left 20% bottom 75% /cover no-repeat;
+  background: url("images/freedom.jpg") left 20% bottom 75% / cover no-repeat;
   width: 100%;
   height: 50vh;
   position: relative;
@@ -15,7 +15,7 @@
   font-family: "Anton", sans-serif;
 }
 
-@media (min-width:40rem){
+@media (min-width: 40rem) {
   #product-overview {
     height: 60vh;
   }
@@ -197,8 +197,8 @@
   border-color: #ff5454;
 }
 
-@media (orientation:landscape) and (min-width:813px) {
+@media (orientation: landscape) and (min-width: 813px) {
   #product-overview {
-    background: url("images/freedom.jpg") left 20% bottom 70% /cover no-repeat;
+    background: url("images/freedom.jpg") left 20% bottom 70% / cover no-repeat;
   }
 }
