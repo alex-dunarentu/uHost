@@ -1,0 +1,204 @@
+#product-overview {
+  background: url("images/freedom.jpg") left 20% bottom 75% /cover no-repeat;
+  width: 100%;
+  height: 50vh;
+  position: relative;
+}
+
+#product-overview h1 {
+  color: white;
+  font-size: 1.9rem;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: black;
+  padding: 1rem;
+  margin: 0;
+  font-family: "Anton", sans-serif;
+}
+
+@media (min-width:40rem){
+  #product-overview {
+    height: 60vh;
+  }
+  #product-overview h1 {
+    font-size: 2.5rem;
+  }
+}
+
+.product-overview__title {
+  position: absolute;
+  bottom: 6%;
+  left: 2%;
+}
+.section-title {
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 30px;
+  color: #2ddf5c;
+  margin: 0;
+  padding-top: 100px;
+  text-align: center;
+}
+
+.plan {
+  background-color: lightgreen;
+  text-align: center;
+  padding: 16px 0;
+  margin: 8px;
+  width: 30%;
+  min-width: 300px;
+  min-height: 320px;
+  max-width: 25rem;
+  height: 90%;
+  vertical-align: middle;
+}
+
+.list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.list li {
+  margin: 5px 0;
+}
+
+.recommended {
+  background: #137a2e;
+  color: white;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+}
+.recommended .plan-title {
+  margin-top: 0;
+}
+.other {
+  border-radius: 10px;
+}
+
+.plan-title {
+  color: #0e4f1f;
+}
+.plan-price {
+  color: #858585;
+}
+
+.plans {
+  display: flex;
+  margin: 100px auto;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.click-me {
+  background-color: white;
+  display: inline-block;
+  color: darkgreen;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  padding: 5px 10px;
+  margin: 20px auto;
+  border-radius: 5px;
+}
+.recommended .plan-title {
+  color: white;
+}
+
+.recommended .plan-price {
+  color: darkgrey;
+}
+
+#key-features {
+  background-color: #ff1b68;
+}
+
+#key-features .section-title {
+  color: white;
+  padding: 50px;
+}
+
+.key-feature__list {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row wrap;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.key-feature {
+  width: 300px;
+}
+
+.key-feature__description {
+  font-weight: bold;
+  color: white;
+  font-size: 1.2rem;
+}
+
+.key-feature__image {
+  background-color: #ffcede;
+  width: 128px;
+  height: 128px;
+  border: 2px solid #424242;
+  border-radius: 50%;
+  margin: auto;
+  padding: 27px;
+}
+
+.modal {
+  position: fixed;
+  display: none;
+  z-index: 200;
+  right: 0;
+  left: 0;
+  width: 50%;
+  margin: 20% auto;
+  background: white;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.modal__title {
+  text-align: center;
+  margin: 0 0 1rem 0;
+}
+
+.modal__actions {
+  text-align: center;
+}
+
+.modal__action {
+  border: 1px solid #0e4f1f;
+  background: #0e4f1f;
+  text-decoration: none;
+  color: white;
+  font: inherit;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.modal__action:hover,
+.modal__action:active {
+  background: #2ddf5c;
+  border-color: #2ddf5c;
+}
+
+.modal__action--negative {
+  background: red;
+  border-color: red;
+}
+
+.modal__action--negative:hover,
+.modal__action--negative:active {
+  background: #ff5454;
+  border-color: #ff5454;
+}
+
+@media (orientation:landscape) and (min-width:813px) {
+  #product-overview {
+    background: url("images/freedom.jpg") left 20% bottom 70% /cover no-repeat;
+  }
+}

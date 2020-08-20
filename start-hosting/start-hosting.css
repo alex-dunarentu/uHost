@@ -1,0 +1,74 @@
+.signup-title {
+    text-align: center;
+    font-size: 2rem;
+    color: #ff5454;
+    padding:1rem;
+}
+
+.signup-page {
+    padding:1rem;
+}
+
+.signup-form label {
+    font-weight: bold;
+}
+
+label,
+select {
+    display:block;
+    margin:1rem 0;
+    width: 100%;
+}
+
+input {
+    width: calc(100% - 6px);
+}
+
+.signup-form input,
+.signup-form select {
+    border: 1px solid #ccc;
+    font:inherit;
+}
+
+.signup-form input:focus,
+.signup-form select:focus {
+    outline:none;
+    background-color: #d8f3df;
+    border-color: #2ddf5c;
+}
+
+input[type="checkbox"],
+label[for="agree-terms"] {
+    display:inline-block;
+    width: auto;
+}
+
+.submit-container {
+    display: flex;
+    justify-content: center;
+}
+
+.terms-container {
+    text-align: center;
+}
+
+.terms-container [type="checkbox"] {
+    height: 1rem;
+    width: 1rem;
+}
+
+.signup-form input:invalid{
+    background-color: #ff7474;
+}
+
+
+@media (min-width:40rem) {
+    .signup-form {
+        margin:auto;
+        width:30rem;
+    }
+    .signup-form label {
+        font-weight: normal;
+    }
+    
+}
